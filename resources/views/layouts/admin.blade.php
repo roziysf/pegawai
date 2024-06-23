@@ -39,7 +39,7 @@
     <aside class="app-sidebar">
       <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{asset('img/pegawai.png')}}" width="50px" alt="User Image">
         <div>
-          <p class="app-sidebar__user-name">GUA</p>
+          <p class="app-sidebar__user-name">rozikin</p>
           {{-- <p class="app-sidebar__user-designation">Frontend Developer</p> --}}
         </div>
       </div>
