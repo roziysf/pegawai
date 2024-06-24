@@ -24,16 +24,16 @@ return new class extends Migration
             $table->string('foto', 100)->nullable();
             $table->string('nohp', 40);
 
-            $table->foreign('agama_id')->references('id')->on('agama');
-            $table->foreign('negara_id')->references('id')->on('negara');
-            $table->foreign('gol_darah_id')->references('id')->on('gololongan_darah');
-            $table->foreign('skeluarga_id')->references('id')->on('keluarga');
+            // $table->foreign('agama_id')->references('id')->on('agama');
+            // $table->foreign('negara_id')->references('id')->on('negara');
+            // $table->foreign('igol_darah_id')->references('id')->on('gololongan darah');
+            // $table->foreign('skeluarga_id')->references('id')->on('keluarga');
             
 
-            // $table->smallInteger('agama_id')->nullable();
-            // $table->smallInteger('negara_id')->nullable();
-            // $table->smallInteger('gol_darah_id')->nullable();
-            // $table->smallInteger('skeluarga_id')->nullable();
+            $table->smallInteger('agama_id')->nullable();
+            $table->smallInteger('negara_id')->nullable();
+            $table->smallInteger('gol_darah_id')->nullable();
+            $table->smallInteger('skeluarga_id')->nullable();
             $table->timestamps();
         });
     }
